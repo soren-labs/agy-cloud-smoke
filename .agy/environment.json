@@ -1,0 +1,9 @@
+{
+  "image": "agy-agent:base",
+  "setup": "",
+  "test": "python3 -m unittest discover -s tests -v",
+  "machineType": "e2-standard-2",
+  "turnTimeoutMinutes": 30,
+  "defaultModel": "gemini-3.1-pro-high",
+  "reviewModel": "claude-opus-4-6-thinking"
+}
